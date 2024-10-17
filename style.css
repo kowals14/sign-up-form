@@ -1,0 +1,99 @@
+@font-face {
+	font-family: Norse-Bold;
+	src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.input-banner {
+	width: 100%;
+	height: 200px;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 5px 20px 5px 20px;
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 50px;
+}
+
+.title {
+	padding: 20px;
+	margin: 0;
+	font-family: Norse-Bold;
+	color: white;
+	height: 100%;
+	font-size: 6em;
+	text-align: center;
+}
+
+.icon-banner {
+	width: 100%;
+	height: 140px;
+	background: rgba(30, 30, 30, 0.6);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.image {
+	background-image: url(./images/background-image.png);
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+}
+
+.sign-up {
+	width: 60%;
+	background: rgba(200, 200, 200, 0.2	);
+}
+
+
+.horizontal-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+.vertical-container{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.background {
+	object-fit: cover;
+}
+
+.odin-logo {
+	height: 90%;
+	padding: 10px;
+}
+
+.description {
+	padding: 5px 20px 5px 20px;
+}
+
+.create-account-button {
+	margin: 20px 20px 20px 20px;
+	width: 30%;
+	
+}
+
+.log-in-text {
+	padding: 5px 20px 5px 20px;
+}
