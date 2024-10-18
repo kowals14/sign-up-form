@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <script src="script.js"></script>
 	<div class='horizontal-container'>
 		<div class='vertical-container image'>
 			<div style='height: 300px'></div>
@@ -28,37 +27,55 @@
 				You <i>know</i> want to.
 			</p>
 			<div class="input-banner">
-				<div style='font-size: 24px; font-weight: bold;'>Let's do this!</div>
-				<div class='input-row'>
-					<div class="input">
-						<label for="first-name">First name</label>
-						<input type="text" id="first-name" name="name" value="">
+				<form action="#" method="get">
+					<div style='font-size: 24px; font-weight: bold;'>Let's do this!</div>
+					<div class='input-row'>
+						<div class="input-box">
+							<div>
+								<label for="fName">First name</label>
+							</div>
+							<input type="text" id="fName" name="fName">
+						</div>
+						<div class="input-box">
+							<div>
+								<label for="lName">Last name</label>
+							</div>
+							<input type="text" id="lName" name="lName">
+						</div>
 					</div>
-					<div class="input">
-						<label for="last-name">Last name</label>
-						<input type="text" id="last-name" name="name" value="">
+					<div class='input-row'>
+						<div class="input-box">
+						  <div>
+							  <div>
+								<label for="email">Email</label>
+							  </div>
+						  </div>
+						  <input type="email" id="email" name="email">
+						</div>
+						<div class="input-box">
+							<div>
+								<div>
+									<label for="phone">Phone</label>
+								</div>
+							</div>
+							<input type="tel" id="phone" name="phone"> 
+						</div>
 					</div>
-				</div>
-				<div class='input-row'>
-					<div class="input">
-						<label for="email">Email</label>
-						<input type="text" id="email" name="contact" value="">
+					<div class='input-row'>
+						<div class="input-box">
+							<div>
+								<label for="psw">Password</label>
+							</div>
+							<input type="password" id="psw" name="psw">
+						</div>
+						<div class="input-box">
+							<div>
+								<label for="cnfrm">Confirm Password</label>
+							</div>
+							<input type="password" id="cnfrm" name="cnfrm">
+						</div>
 					</div>
-					<div class="input">
-						<label for="phone">Phone</label>
-						<input type="tel" id="phone" name="contact" value="">
-					</div>
-				</div>
-				<div class='input-row'>
-					<div class="input">
-						<label for="password">Password</label>
-						<input type="password" id="password" name="password" value="">
-					</div>
-					<div class="input">
-						<label for="confirm-password">Confirm Password</label>
-						<input type="password" id="confirm-password" name="password" value="">
-					</div>
-				</div>
+				</form>
 			</div>
 			<button	type="button" class="create-account-button">Create Account</button>
 			<div class="log-in-text">
@@ -66,5 +83,6 @@
 			</div>
 		</div>
 	</div>
+    <script src="script.js"></script>
   </body>
 </html>
